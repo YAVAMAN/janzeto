@@ -1,0 +1,55 @@
+.app
+    background-image: linear-gradient(right, #7CB9E4, #82036F)
+    padding-top: 70px
+    @media (max-width: 768px)
+        padding: 50px 0
+
+.app__img-inner
+    display: block
+    & img
+        display: block
+        height: auto
+        max-width: 100%
+        margin-left: auto
+
+.app__link
+    @media (min-width: 992px)
+        margin-bottom: 22px
+        margin-top: 22px
+    @media (max-width: 768px)
+        display: block
+        & img
+            display: block
+            height: auto
+            max-width: 100%
+            margin-left: auto
+            @media (max-width: 768px)
+                margin-left: 0
+
+
+.app__title
+    font-family: 'Montserrat-Bold'
+    font-size: 43px
+    line-height: 52px
+    color: #FFFFFF
+    @media (min-width: 1200px)
+        margin-bottom: 17px
+    @media (max-width: 992px)
+        font-size: 34px
+        margin-bottom: 40px
+    @media (max-width: 768px)
+        text-align: center
+        line-height: 140%
+        font-size: 26px
+        margin-bottom: 30px
+    @media (max-width: 576px)
+        font-size: 22px
+        margin-bottom: 25px
+
+.app__subtitle
+    font-family: 'Montserrat-SemiBold'
+    font-size: 18px
+    line-height: 22px
+    color: #FFFFFF
+    @media (max-width: 576px)
+        font-size: 13px

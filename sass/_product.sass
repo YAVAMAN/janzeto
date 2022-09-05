@@ -1,0 +1,155 @@
+.product
+    background-color: #FCFCFC
+
+.product__inner
+    padding: 70px 0
+    @media (max-width: 768px)
+        padding: 50px 0
+
+.product__title
+    font-family: 'Montserrat-Bold'
+    font-size: 43px
+    color: #08213D
+    margin: 0 0 25px
+    text-transform: uppercase
+    @media (max-width: 576px)
+        font-size: 26px
+
+.product__pill-list
+    justify-content: space-between
+    position: sticky
+    top: 87px
+    z-index: 9
+    background-color: #FCFCFC
+    border-radius: 5px
+    overflow: hidden
+    padding: 10px 12px
+    margin-bottom: 25px
+    @media (max-width: 768px)
+        display: flex
+        justify-content: center
+        gap: 5px
+        margin-bottom: 20px
+    @media (max-width: 576px)
+        padding: 10px 0
+
+
+.nav-pills .product__pill-btn
+    font-size: 15px
+    color: #6F7882
+    padding: 4px 20px
+    @media (max-width: 576px)
+        font-size: 12px
+    &.active
+        color: #ffffff
+        background: #671C5B
+        border-radius: 5px
+
+.tab-content
+    & .row+.row
+        margin-top: 5px
+
+.product__cat-title
+    font-family: 'Montserrat-SemiBold'
+    font-size: 36px
+    line-height: 44px
+    color: #08213D
+    margin-bottom: 10px
+    @media (max-width: 576px)
+        font-size: 22px
+        margin-bottom: 0
+
+
+.product__cat-notice
+    font-size: 18px
+    line-height: 22px
+    color: #6F7882
+    margin-bottom: 30px
+    @media (max-width: 576px)
+        font-size: 12px
+        margin-bottom: 10px
+
+.product__card
+    background: #FFFFFF
+    border: 1px solid #F3F3F3
+    border-radius: 7px
+    display: flex
+    flex-direction: column
+
+.product__card-img
+    border-radius: 7px
+
+.product__card-desc
+    flex: 1 auto
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    padding: 18px 13px 20px
+    @media (max-width: 576px)
+        padding: 5px
+
+.product__name
+    font-family: 'Montserrat-SemiBold'
+    font-size: 18px
+    line-height: 22px
+    color: #08213D
+    &--wrap
+        word-break: break-all
+    @media (max-width: 576px)
+        font-size: 16px
+
+.product__weight
+    font-size: 16px
+    line-height: 20px
+    color: #6F7882
+    margin-top: 9px
+    @media (max-width: 576px)
+        font-size: 12px
+
+.product__price
+    margin-top: 9px
+
+.product__price-label, .product__price-new
+    font-family: 'Montserrat-SemiBold'
+    font-size: 16px
+    line-height: 20px
+    color: #671C5B
+    @media (max-width: 576px)
+        font-size: 12px
+
+.product__price-old
+    font-family: 'Montserrat-SemiBold'
+    font-size: 15px
+    line-height: 18px
+    text-decoration: line-through
+    color: #6F7882
+    margin-left: 14px
+    @media (max-width: 576px)
+        font-size: 12px
+        margin-left: 5px
+
+.product__btn
+    width: auto
+    display: flex
+    align-items: center
+    justify-content: center
+    font-family: 'Montserrat-SemiBold'
+    font-size: 16px
+    line-height: 20px
+    color: #FFFFFF
+    background: #671C5B
+    border-radius: 7px
+    padding: 7px 32px
+    margin-top: 15px
+    @media (max-width: 992px)
+        margin-right: auto
+    @media (max-width: 768px)
+        font-size: 14px
+    @media (max-width: 576px)
+        font-size: 12px
+        padding: 7px 6px
+    & svg
+        margin-right: 10px
+        margin-top: -2px
+        @media (max-width: 576px)
+            display: none

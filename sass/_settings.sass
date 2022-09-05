@@ -1,0 +1,58 @@
+body
+    font-family: 'Montserrat-Medium'
+
+button, a
+    display: inline-block
+    vertical-align: top
+    background-color: transparent
+    cursor: pointer
+    text-decoration: none
+    border: 0 none
+    outline: 0
+    &:focus
+        outline: none
+
+.block
+    padding: 70px 0
+    @media (max-width: 768px)
+        padding: 50px 0
+
+.tel
+    display: flex
+    align-items: center
+    font-family: 'Montserrat-SemiBold'
+    font-size: 16px
+    line-height: 20px
+    & svg
+        margin-right: 5px
+    &-header
+        font-size: 16px
+        color: #671C5B
+        @media (max-width: 576px)
+            font-size: 12px
+        &:hover
+            color: #671C5B
+    &-intro
+        font-size: 14px
+        color: #FFFFFF
+        @media (max-width: 576px)
+            font-size: 12px
+        &:hover
+            color: #ffffff
+    &-form
+        @media (max-width: 992px)
+            justify-content: center
+
+.hide
+    display: none
+
+.copyright
+    background-color: #282828
+    padding: 20px 0
+
+iframe#amoforms_iframe_895234,
+iframe#amoforms_iframe_895240,
+iframe#amoforms_iframe_895162
+    height: 310px!important
+    width: 100%!important
+    margin: auto!important

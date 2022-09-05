@@ -1,0 +1,67 @@
+.header
+    background-color: #FAFAFC
+    box-shadow: 0px 16px 19px -8px rgba(0, 0, 0, 0.15)
+    width: 100%
+    position: fixed
+    z-index: 10
+    transition: all 0.2s linear
+
+.header-ty
+    position: static
+
+.header__desc
+    font-family: 'Montserrat-SemiBold'
+    font-size: 12px
+    line-height: 20px
+    color: #6F7882
+    white-space: nowrap
+    @media (max-width: 576px)
+        font-size: 10px
+        white-space: normal
+    & span
+        color: #671C5B
+        font-family: 'Montserrat-Bold'
+
+.header__nav-list
+    @media (max-width: 992px)
+        gap: 10px
+        white-space: nowrap
+
+.header__nav-inner
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &.menu
+        flex-direction: column
+        gap: 15px
+        align-items: start
+        justify-content: center
+
+.header__nav-link
+    font-family: 'Montserrat-SemiBold'
+    font-size: 16px
+    color: #6F7882
+    @media (max-width: 576px)
+        font-size: 14px
+
+.header__btn
+    font-family: 'Montserrat-SemiBold'
+    font-size: 16px
+    line-height: 20px
+    color: #FFFFFF
+    padding: 7px 16px
+    background: #671C5B
+    border-radius: 7px
+    @media (max-width: 576px)
+        font-size: 12px
+        padding: 7px 14.5px
+
+.header__tel-inner
+    display: flex
+    justify-content: end
+
+.navbar-toggler:focus
+    box-shadow: none
+
+.offcanvas-body
+    display: flex
